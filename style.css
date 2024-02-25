@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    background-color: rgb(20, 19, 41);
+    color: white;
+    
+}
+.holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    width: 40%;
+    height: 78%;
+    background-color: white;
+    border-radius: 10px;
+}
+.divider{
+    width: 100%;
+    height: 3vh;
+      background-color: rgb(20, 19, 41);
+}
+.inpdiv{
+    margin: 6px;
+}
+.inputtag{
+    margin-top: 2%;
+    text-align: right;
+    width: 510px;
+    height: 60px;
+    font-size: larger;
+    background-color: rgb(111, 153, 190);
+    color: rgb(9, 4, 4);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.buttons{
+    display: flex;
+    gap: 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row1>button{
+width: 128px;
+height: 65px;
+gap: 3%;
+margin: 3px;
+background-color: aliceblue;
+color: black;
+font-size: larger;
+border: 1px solid rgb(236, 229, 229);
+border-radius: 6px;
+cursor: pointer;
+}
+.row2>button{
+    width: 261px;
+    height: 65px;
+    gap: 3%;
+    margin: 4px;
+    background-color: aliceblue;
+    color: black;
+    font-size: larger;
+    border: 1px solid rgb(236, 229, 229);
+    border-radius: 6px;
+    cursor: pointer;
+    }
